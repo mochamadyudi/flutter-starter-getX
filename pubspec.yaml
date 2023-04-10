@@ -1,0 +1,40 @@
+name: yuyuid
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  get_storage: ^2.0.3
+  indexed: ^0.0.8
+  lottie: ^1.4.3
+  http: ^0.13.5
+  flutter_easyloading: ^3.0.5
+  shared_preferences: ^2.0.15
+#    permission_handler: ^10.2.0
+  flutter_secure_storage: ^4.2.1
+  #  badges: ^2.0.3
+  internet_connection_checker: ^1.0.0+1
+  #  flutter_speed_dial: ^4.6.6
+  #  dio: ^4.0.0
+  #  path_provider: ^2.0.4
+  #  open_file: ^3.1.0
+  #  connectivity_plus: ^3.0.2
+  #  path_provider_android: ^2.0.21
+
+  flutter: 
+    sdk: flutter
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/json/todo.json
+
